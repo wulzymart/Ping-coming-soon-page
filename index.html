@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <script
+      src="https://kit.fontawesome.com/dfe80ea041.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="sm:text-xl">
+    <main
+      class="container sm:w-2/4 mx-auto grid grid-cols-1 text-center justify-items-center py-20 px-5"
+    >
+      <img class="mb-10" src="images/logo.svg" alt="" />
+
+      <h1 class="text-[#969696] text-2xl sm:text-5xl font-medium mb-5">
+        We are launching <span class="text-[#151F29] font-bold">soon!</span>
+      </h1>
+      <p class="mb-6 text-[#151F29]">Subscribe and get notified</p>
+
+      <div class="w-full px-5">
+        <form class="w-full" action="">
+          <div class="sm:flex items-start gap-x-5">
+            <div class="sm:w-3/4">
+              <input
+                class="w-full py-4 pl-10 outline outline-1 outline-[#C2D3FF] rounded-full"
+                id="email"
+                type="email"
+                placeholder="Your email address..."
+                name="email"
+                minlength="5"
+              />
+              <p
+                class="text-[#FF5263] sm:text-left sm:pl-11 mb-2 italic pt-2 hidden"
+              >
+                please provide a valid email
+              </p>
+            </div>
+            <button
+              class="w-full sm:w-1/4 mt-3 sm:mt-0 py-4 text-white font-semibold bg-[#4F7DF3] rounded-full"
+            >
+              Notify Me
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="my-20">
+        <img src="images/illustration-dashboard.png" alt="" />
+      </div>
+      <div class="flex gap-x-5 mb-10">
+        <div
+          class="flex items-center justify-center h-10 w-10 border border-2 border-[#C2D3FF] text-[#4F7DF3] hover:text-white hover:bg-[#4F7DF3] hover:border-none rounded-full"
+        >
+          <i class="fa-brands fa-facebook-f hover"></i>
+        </div>
+        <div
+          class="flex items-center justify-center h-10 w-10 border border-2 border-[#C2D3FF] text-[#4F7DF3] hover:text-white hover:bg-[#4F7DF3] hover:border-none rounded-full"
+        >
+          <i class="fa-brands fa-twitter hover"></i>
+        </div>
+        <div
+          class="flex items-center justify-center h-10 w-10 border border-2 border-[#C2D3FF] text-[#4F7DF3] hover:text-white hover:bg-[#4F7DF3] hover:border-none rounded-full"
+        >
+          <i class="fa-brands fa-instagram hover"></i>
+        </div>
+      </div>
+      <p class="text-[#969696]">&copy; Copyright Ping. All rights reserved.</p>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+</html>
